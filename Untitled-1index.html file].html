@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matheus e Eduarda - Nosso Amor</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .header {
+            background-color: #141414;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        .titulo {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subtitulo {
+            font-size: 18px;
+            color: #46d369;
+            margin-bottom: 20px;
+        }
+
+        .texto {
+            max-width: 800px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .botoes {
+            margin-top: 20px;
+        }
+
+        .botoes button {
+            background-color: #e50914;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .momentos {
+            margin-top: 40px;
+        }
+
+        .momentos h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .momentos img {
+            width: 200px;
+            height: auto;
+            margin-right: 10px;
+            border-radius: 10px;
+        }
+
+        .imagem-destaque {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" alt="Netflix" width="80">
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Categorias</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <img src="principal.jpg (Imagem do casal grande).jpg" alt="Casal" class="imagem-destaque" />
+
+        <div class="titulo">Matheus e Eduarda</div>
+        <div class="subtitulo">Juntos mesmo distantes • 💚 Meu Grande Amor</div>
+        <div class="subtitulo">🔥 Top 1 Casais Mais Apaixonados</div>
+
+        <p class="texto"> Em meio a 432 quilômetros de distância, nasce uma história tão intensa que nem o tempo, nem o espaço conseguem pausar. Matheus e Eduarda estrelam uma série única: feita de mensagens à meia-noite, chamadas que viram colo, planos para o futuro e um amor que se recusa a caber em mapas. Aqui, cada clique é um reencontro, cada página um episódio — e o final feliz ainda está sendo escrito. Aperte o play no nosso amor.
+        </p>
+
+        <div class="botoes">
+            <button>▶️ Assistir</button>
+            <button>💖 Favorito</button>
+        </div>
+
+        <div class="momentos">
+            <h2>Nossos Melhores Momentos</h2>
+            <img src="MeE.JPG(momento 1).jpg" alt="Momento 1" />
+            <img src="MeE.JPG(momento2).jpg" alt="Momento 2" />
+            <img src="MeE.JPG3.jpg" alt="Momento 3" />
+            <p class="texto">Sei que nossos momentos perto são poucos, mas cada um deles vale por mil. São abraços que curam distâncias, sorrisos que cabem em memórias eternas, e olhares que dizem mais que qualquer palavra. Mesmo longe, a verdade é que eu revivo cada instante teu na minha mente, como se fosse agora... e isso me mantém inteiro até o próximo encontro.</p>
+        </div>
+
+        <p style="margin-top: 40px; font-size: 14px; color: #aaa;">Escrito por: Matheus Rebouças<br>Destinado à: Eduarda</p>
+    </div>
+<button onclick="document.getElementById('musica').play()">▶ Ouça nossa música: Te Vivo</button>
+
+<audio id="musica">
+  <source src="te vivo.mp3.mp3"audio/mpeg">
+  Seu navegador não suporta áudio.
+</audio>
+
+
+</body>
+
+</html>
